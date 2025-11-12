@@ -97,8 +97,8 @@ The user can exit the application by pressing the Exit button.
 </p>
 
 <p align="left">
-  <img src="screenshots/1723131359780.jpg" width="250"/>
-  <img src="screenshots/1723131375317.jpg" width="250"/>
+  <img src="screenshots/1723131359780.jpg" width="300"/>
+  <img src="screenshots/1723131375317.jpg" width="300"/>
 </p>
 <br/><br/>
 
