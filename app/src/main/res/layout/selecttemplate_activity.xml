@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <!-- EditText for entering student name -->
+    <EditText
+        android:id="@+id/studentNameEditText"
+        style="@style/CustomEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <!-- Button to capture image -->
+    <Button
+        android:id="@+id/captureImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomButton"
+        android:text="@string/capture_image" />
+
+    <!-- Button to count marks -->
+    <Button
+        android:id="@+id/countMarksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomButton"
+        android:text="@string/count_marks" />
+
+    <!-- Button to add new exam paper -->
+    <Button
+        android:id="@+id/NewExamButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomButton"
+        android:text="@string/add_new_exam_paper" />
+
+    <!-- Button to exit -->
+    <!-- Horizontal LinearLayout to contain exit and about buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Exit"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/aboutButton"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="ABOUT"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

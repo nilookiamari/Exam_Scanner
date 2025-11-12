@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <!-- TextView for the About section -->
+    <TextView
+        android:id="@+id/aboutTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About this App"
+        android:textSize="16.5sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp" />
+
+    <!-- LinearLayout for ImageView and Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/exampleImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="156dp"
+            android:src="@drawable/example_exam_image" />
+
+        <Button
+            android:id="@+id/backButton"
+            style="@style/CustomButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="-80dp"
+            android:layout_marginBottom="49dp"
+            android:background="@drawable/button_background"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
+
