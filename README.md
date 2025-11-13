@@ -104,6 +104,10 @@ The user can exit the application by pressing the Exit button.
 
 ---
 
+## 🎥 Demo Video
+[Download Demo (MP4)](https://github.com/nilookiamari/Exam_Scanner/releases/download/v1.0/demo.mp4)
+
+---
 ## <b>License</b>
 
 This project is licensed under the <b>MIT License</b>.  
