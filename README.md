@@ -88,7 +88,7 @@ The user can exit the application by pressing the Exit button.
 
 ## <b>Screenshots</b>
 
-### Cover
+
 ![Capture Page](screenshots/1723131423042.jpg)
 
 <p align="left">
